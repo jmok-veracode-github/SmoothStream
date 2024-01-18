@@ -11,7 +11,7 @@ Nope. After pulling my hair out, searching on the internet for weeks, scavenging
 Until I stumbled upon [this](https://stackoverflow.com/questions/43817161/how-to-send-opencv-video-footage-over-zeromq-sockets) StackOverflow Question.
 
 I decided it was 'bout time someone did something about it.
-
+  
 The `StreamViewer` needs to start listening for incoming stream from the `Streamer`, once an incoming stream is detected it is displayed on the screen.
 
 SmoothStream currently has a dependency on ZeroMQ and I don't see a way around it.
